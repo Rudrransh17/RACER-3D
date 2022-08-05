@@ -1,0 +1,481 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1659636104372573, "dur":2018, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636104374609, "dur":51, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1659636104374670, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1659636104374691, "dur":595, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1659636104375330, "dur":688, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636104376018, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191521, "dur":250, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191772, "dur":33, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191805, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191809, "dur":37, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191846, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191850, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191860, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191861, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191886, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191887, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191894, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191896, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191902, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191903, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191909, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191911, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191918, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191925, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105191929, "dur":31249, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1659636104375717, "dur":312, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104376031, "dur":3486, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104379530, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1659636104379569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104380746, "dur":1028, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1659636104381776, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1659636104381796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104422226, "dur":4610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1659636104426839, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104426860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104430452, "dur":36239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104466714, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104466735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104466744, "dur":32640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104499406, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104499444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104499453, "dur":29918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104529392, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104529416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104529424, "dur":31725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104561172, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104561193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104561203, "dur":26533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104587748, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104587761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104587766, "dur":30742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104618526, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104618560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104618568, "dur":27566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104646155, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104646173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104646180, "dur":27193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104673395, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104673415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104673423, "dur":23618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104697053, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104697069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104697074, "dur":24791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104721884, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104721904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104721913, "dur":25959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104747889, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104748190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104748198, "dur":4698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104752915, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104753224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104753232, "dur":3761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104757015, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104757331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104757341, "dur":3493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104760853, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104760880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104760902, "dur":4080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104765002, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104765028, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104765034, "dur":6990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104772042, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104772089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104772098, "dur":3684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104775799, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104775841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104775848, "dur":11698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104787559, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104787571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104787577, "dur":2960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104790548, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104790565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104790575, "dur":135947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104926540, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636104926559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659636104926566, "dur":162550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659636105089154, "dur":102367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659636104375830, "dur":213, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659636104376043, "dur":3506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659636104379549, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1659636104379592, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659636104379618, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1659636104379641, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659636104379658, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1659636104379703, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659636104379721, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1659636104379768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659636104422514, "dur":551348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1659636104973902, "dur":217635, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104375799, "dur":237, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104376036, "dur":3490, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104379531, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1659636104379773, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104379785, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104379938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104422330, "dur":40275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104462623, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104462643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104462649, "dur":31278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104493944, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104493965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104493972, "dur":31541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104525530, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104525550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104525557, "dur":31560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104557138, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104557159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104557182, "dur":27673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104584875, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104584901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104584925, "dur":27043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104611988, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104612003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104612010, "dur":27586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104639629, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104639650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104639669, "dur":30990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104670679, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104670697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104670704, "dur":25372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104696093, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104696122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104696129, "dur":26333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104722487, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104722508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104722516, "dur":23633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104746167, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104746462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104746470, "dur":2827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104749309, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104749697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104749704, "dur":3815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104753547, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104753825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104753832, "dur":3378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104757248, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104757573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104757580, "dur":3841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104761447, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104761466, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104761471, "dur":8286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104769784, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104769811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104769819, "dur":5130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104774964, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104774980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104774986, "dur":3948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104778960, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104778987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104779031, "dur":173348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659636104952390, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1659636104952577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104952581, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1659636104953737, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1659636104953748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104953752, "dur":3126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1659636104956897, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1659636104956911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104956916, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1659636104958900, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1659636104958929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104958933, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1659636104960212, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1659636104960235, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104960238, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1659636104961266, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1659636104961275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104961279, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1659636104962294, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1659636104962303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104962306, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1659636104963318, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1659636104963329, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104963332, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1659636104964504, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1659636104964514, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104964517, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1659636104965547, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1659636104965737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659636104965741, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1659636104967518, "dur":224020, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104375955, "dur":95, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104376050, "dur":3477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104379531, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1659636104379579, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104379603, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1659636104379647, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104379663, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1659636104379685, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104379697, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104379723, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104379766, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104379924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104422397, "dur":39699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104462117, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104462183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104462193, "dur":32535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104494747, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104494766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104494807, "dur":30554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104525377, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104525390, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104525396, "dur":30722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104556143, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104556164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104556173, "dur":31504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104587701, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104587722, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104587730, "dur":28370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104616122, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104616144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104616153, "dur":28131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104644305, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104644326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104644335, "dur":30133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104674487, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104674507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104674515, "dur":23788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104698319, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104698336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104698342, "dur":25362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104723742, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104723780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104723787, "dur":24915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104748721, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104749023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104749031, "dur":3562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104752615, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104753074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104753084, "dur":4821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104757937, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104757955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104757962, "dur":55289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104813276, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104813301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104813312, "dur":33123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104846447, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636104846468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659636104846474, "dur":344997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659636105191494, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1659636105191496, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659636104376002, "dur":55, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659636104376057, "dur":3466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659636104379530, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1659636104379600, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659636104379637, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1659636104379664, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659636104379676, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659636104379703, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659636104379718, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D.exe" }}
+,{ "pid":12345, "tid":5, "ts":1659636104379738, "dur":28, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659636104381806, "dur":60167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D.exe" }}
+,{ "pid":12345, "tid":5, "ts":1659636104441994, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659636104442045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659636104442054, "dur":34508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659636104476579, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659636104476593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659636104476601, "dur":30033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659636104506654, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659636104506674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659636104506682, "dur":582924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659636105089660, "dur":101865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104376047, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104376048, "dur":3476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104379531, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1659636104379578, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104379610, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1659636104379661, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104379674, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1659636104379693, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104379705, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1659636104379767, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104379791, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104379934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104422323, "dur":41622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104463962, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104463985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104464006, "dur":30897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104494921, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104494944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104494952, "dur":27872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104522841, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104522860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104522867, "dur":26137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104549029, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104549048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104549057, "dur":31330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104580428, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104580450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104580458, "dur":28463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104608938, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104608969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104608977, "dur":26573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104635573, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104635595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104635603, "dur":31680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104667303, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104667322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104667331, "dur":25356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104692705, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104692721, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104692819, "dur":22416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104715258, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104715280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104715287, "dur":23925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104739233, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104739669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104739677, "dur":5031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104744725, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104745263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104745269, "dur":11849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104757136, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104757470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104757478, "dur":4339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104761840, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104761858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104761864, "dur":10600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104772484, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104772512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104772518, "dur":4865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104777399, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104777417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104777424, "dur":42400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104819836, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636104819847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659636104819852, "dur":245369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659636105065260, "dur":126259, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104376124, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104376125, "dur":3422, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104379548, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1659636104379596, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104379626, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1659636104379649, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104379664, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1659636104379681, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104379704, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104379721, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104379735, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104379878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104422708, "dur":39582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104462311, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104462348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104462391, "dur":29985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104492400, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104492421, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104492428, "dur":30021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104522469, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104522490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104522553, "dur":30048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104552621, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104552666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104552675, "dur":28632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104581319, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104581352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104581358, "dur":28856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104610232, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104610250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104610257, "dur":30257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104640541, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104640561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104640569, "dur":30213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104670801, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104670821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104670842, "dur":27282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104698138, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104698151, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104698156, "dur":25218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104723394, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104723413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104723420, "dur":26492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104749930, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104750205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104750213, "dur":3759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104753989, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104754308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104754315, "dur":3135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104757470, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104757493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104757499, "dur":6904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104764423, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104764444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104764454, "dur":26479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104790949, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104790973, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104790979, "dur":53545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104844537, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636104844550, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659636104844555, "dur":180350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659636105024937, "dur":166581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104376237, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104376237, "dur":3312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104379550, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1659636104379589, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104379610, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1659636104379649, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104379663, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1659636104379698, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104379722, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104379918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104422305, "dur":41474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104463797, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104463822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104463831, "dur":29075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104492922, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104492943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104493027, "dur":28342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104521393, "dur":783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104522180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104522189, "dur":8712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104530922, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104530944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104530952, "dur":26966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104557938, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104557996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104558003, "dur":29705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104587728, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104587748, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104587755, "dur":31822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104619597, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104619616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104619644, "dur":26014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104645675, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104645698, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104645704, "dur":29085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104674804, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104674822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104674828, "dur":255953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104930792, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104931039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104931044, "dur":3303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659636104934359, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1659636104934534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104934828, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1659636104936142, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1659636104936159, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104936193, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1659636104937880, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1659636104937909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104937920, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1659636104940110, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1659636104940124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104940130, "dur":1840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1659636104941979, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1659636104941990, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104941994, "dur":2991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1659636104944996, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1659636104945010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104945014, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1659636104946239, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1659636104946249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104946253, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1659636104949267, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1659636104949282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636104949288, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1659636104950838, "dur":67593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game Dev/RACER 3D/RACER 3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1659636105018440, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659636105018453, "dur":3255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game Dev/RACER 3D/RACER 3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1659636105021734, "dur":169790, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659636105225693, "dur":2433, "ph":"X", "name": "ProfilerWriteOutput" }
+,
